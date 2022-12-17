@@ -1,0 +1,10 @@
+.widget{
+    flex:0.2;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: fit-content;
+}
+.widget>h5{
+    padding-left: 10px;
+}

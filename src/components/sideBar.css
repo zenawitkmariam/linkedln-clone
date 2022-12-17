@@ -1,0 +1,101 @@
+.side_bar{
+    flex: 0.2;
+    /* height: fit-content; */
+}
+.sidebar_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.2px solid lightgrey;
+}
+.sidebar_top > img {
+    margin-bottom: -20px;
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.sidebar_image{
+}
+.sidebar_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sidebar_description > p {
+    /* align-items: center; */
+}
+.sidebar_numbers{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 0.1px solid lightgray;
+    border: 0.2px solid lightgrey;
+    padding-bottom: 15px;
+}
+.sidebar_numbers :hover{
+    background-color: whitesmoke;
+}
+.sidebar_number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.sidebar_number > h5{
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.sidebar_number > p{
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.sidebar_bottom{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-bottom:10px;
+    border-radius: 5px;
+    border: 0.3px solid lightgray;
+}
+.sidebar_bottom > h3{
+    font-weight: bold;
+    align-items: center;
+    padding-left:10px ;
+
+}
+.review_list {
+   display: flex; 
+   color: gray;
+   cursor: pointer;
+   font-size: 13px;
+   align-items: center;
+   border-radius: 5px;
+   margin-left: 20px;
+   padding-left: 10px;
+   margin-right: 20px;
+   padding-right: 10px;
+}
+.review_list:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+.review_list > span{
+    margin-right:5px ;
+}

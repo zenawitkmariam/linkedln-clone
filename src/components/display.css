@@ -1,0 +1,48 @@
+.display {
+    flex: 0.6;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.feed_post{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.display_top_section {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.display_top_section > form {
+    display: flex;
+    border-radius: 20px;
+    border: 0.1px solid lightgray;
+    margin-left: 20px;
+    width:100%;
+}
+.display_top_section > form >input {
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    margin-right: 15px;
+    flex: 1;
+}
+.display_top_section > form > button {
+    display: none;
+}
+.display_icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.display_icons:hover {
+    /* background-color: whitesmoke; */
+}
+
+.post_view{
+    margin-top: 15px;
+    /* background-color: white;
+    border-radius: 10px;
+    padding: 10px; */
+}

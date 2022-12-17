@@ -1,0 +1,32 @@
+
+.header { 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 20px;
+}
+.header_content{
+  margin-left: 30px;
+}
+.header_content_name {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.header_content_title {
+    color: gray;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.header_content_time {
+    color: gray;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.button_class {
+   margin-top: 3px;
+   border-radius: 15px;
+   background-color:whitesmoke;
+}

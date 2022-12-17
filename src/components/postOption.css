@@ -1,0 +1,16 @@
+.postOptions {
+    display:flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.postOptions:hover {
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+.postOptions > p {
+   margin-left: 5px;
+}
